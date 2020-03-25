@@ -1,0 +1,46 @@
+
+
+### INSERIR UMA ONG
+POST http://localhost:3333/ongs/ HTTP/1.1
+Content-Type: application/json
+
+{
+   "name": "APAD2",
+   "email": "contato@apad2.com.br",
+   "whatsapp": "4700000000",
+   "city": "Blumenau",
+   "uf": "SC"
+}
+
+### listar todas as ongs
+GET http://localhost:3333/ongs/ HTTP/1.1
+
+### INSERIR UM CASO
+POST http://localhost:3333/incidents HTTP/1.1
+Content-Type: application/json
+Authorization: cacd06ca
+
+{
+   "title": "Caso 4",
+   "description": "Detalhes do caso",
+   "value": 125
+}
+
+### listar todos os casos (tem PAGINAÇÃO)
+GET http://localhost:3333/incidents?page=3 HTTP/1.1
+
+### listar todos os casos para uma ong
+GET http://localhost:3333/profile HTTP/1.1
+Authorization: cacd06ca
+
+### deletar caso
+DELETE http://localhost:3333/incidents/4 HTTP/1.1
+Authorization: 82f0ecc4
+
+### LOGIN ONG
+POST http://localhost:3333/sessions HTTP/1.1
+Content-Type: application/json
+
+{
+   "id": "82f0ecc4"
+}
