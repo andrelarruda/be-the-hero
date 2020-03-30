@@ -48,7 +48,7 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
 * Cliente HTTP [axios](https://github.com/axios/axios) para consumo da API construída;
 * Sistema de Rotas utlilizando elementos da *react-router-dom*;
 * Uso do método *useEffect* para manipulação de dados durante a renderização de componentes.
-* Biblioteca Intl (nativa no ReactJS) para padrões de internacionalização;
+* Biblioteca Intl para padrões de internacionalização (usada para padrão de moeda). Não precisa instalar nenhum pacote pois já é nativa do ReactJS. Basta usar a classe Intl;
 
 **2. Mobile**
 * [expo](https://expo.io/) para rodar o app em dispositivos Android ou iOS;
@@ -57,4 +57,4 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
 * Módulo [expo-mail-composer](https://docs.expo.io/versions/latest/sdk/mail-composer/) para compor emails;
 * Abordagem [*deep link*](https://medium.com/@JohnCalistro/o-que-%C3%A9-deep-linking-d0208d746874) para abrir o aplicativo do Whatsapp e enviar mensagem. Para isso foi utilizado a classe *Linking* da própria biblioteca *react-native*;
 * Uso da biblioteca *react-navigation* para navegação em aplicações mobile;
-* Biblioteca Intl para padrões de internacionalização (Precisa instalação);
+* Biblioteca Intl para padrões de internacionalização (Precisa instalar intl - `npm install intl --save`);
