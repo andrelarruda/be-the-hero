@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+const generateUniqueId = require('../utils/generateUniqueId');
 const connection = require('../database/connection');
 
 module.exports = {
@@ -13,7 +13,7 @@ module.exports = {
          return res.status(400).send({ message: "ONG já cadastrada." });
       }
 
-      const id = crypto.randomBytes(4).toString('HEX');
+      const id = generateUniqueId();
 
       await connection('ong').insert({
          id,

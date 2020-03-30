@@ -1,10 +1,12 @@
 const express = require('express');
 const cors = require('cors');
+
+// Aula deploy: vídeo Funcionalidades Avançadas (53:25)
+
 const { errors } = require('celebrate');
 const routes = require('./routes');
 
 const app = express();
-const PORT = 3333;
 
 app.use(cors());
 app.use(express.urlencoded( { extended: false }));
@@ -13,7 +15,7 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
-app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
+module.exports = app;
 
 /**
  * Métodos HTTP

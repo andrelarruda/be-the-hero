@@ -5,8 +5,8 @@ POST http://localhost:3333/ongs/ HTTP/1.1
 Content-Type: application/json
 
 {
-   "name": "APAD2",
-   "email": "contato@apad2",
+   "name": "APAD5",
+   "email": "contato@apad5.com",
    "whatsapp": "4700000000",
    "city": "Blumenau",
    "uf": "SC"
