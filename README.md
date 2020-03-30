@@ -2,10 +2,7 @@
 
 
 ## Objetivo do projeto:
-Esse projeto foi desenvolvido durante a **Semana Omnistack 11.0** da [Rocketseat](https://rocketseat.com.br/) (23/03/20 - 27/03/20). O objetivo é ensinar como desenvolver uma aplicação do back-end até o front-end (web + mobile), usando **NodeJS**, **ReactJS** e **React Native**.
-
-### Tecnologias utilizadas:
-[NodeJS](https://nodejs.org/en/), [ReactJS](https://reactjs.org/) e [React Native](https://reactnative.dev/).
+Esse projeto foi desenvolvido durante a **Semana Omnistack 11.0** da [Rocketseat](https://rocketseat.com.br/) (23/03/20 - 27/03/20). O objetivo é ensinar como desenvolver uma aplicação do back-end até o front-end (web + mobile), usando **[NodeJS](https://nodejs.org/en/)**, **[ReactJS](https://reactjs.org/)** e **[React Native](https://reactnative.dev/)**.
 
 # O projeto:
   ### **Plataforma Web**
