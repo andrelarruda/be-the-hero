@@ -44,7 +44,7 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
 
 ## Front-end
 **1. Web**
-* Foram utilizados ícones da biblioteca [Feather](http://feathericons.com) icons *react-icons/fi*;
+* Foram utilizados ícones da biblioteca [Feather icons](http://feathericons.com) (biblioteca *react-icons*);
 * Cliente HTTP [axios](https://github.com/axios/axios) para consumo da API construída;
 * Sistema de Rotas utlilizando elementos da *react-router-dom*;
 * Uso do método *useEffect* para manipulação de dados durante a renderização de componentes.
