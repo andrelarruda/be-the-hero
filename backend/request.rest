@@ -6,7 +6,7 @@ Content-Type: application/json
 
 {
    "name": "APAD2",
-   "email": "contato@apad2.com.br",
+   "email": "contato@apad2",
    "whatsapp": "4700000000",
    "city": "Blumenau",
    "uf": "SC"
@@ -34,8 +34,8 @@ GET http://localhost:3333/profile HTTP/1.1
 Authorization: cacd06ca
 
 ### deletar caso
-DELETE http://localhost:3333/incidents/4 HTTP/1.1
-Authorization: 82f0ecc4
+DELETE http://localhost:3333/incidents/18 HTTP/1.1
+Authorization: cacd06ca
 
 ### LOGIN ONG
 POST http://localhost:3333/sessions HTTP/1.1
