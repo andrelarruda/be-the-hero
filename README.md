@@ -58,3 +58,8 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
 * Abordagem [*deep link*](https://medium.com/@JohnCalistro/o-que-%C3%A9-deep-linking-d0208d746874) para abrir o aplicativo do Whatsapp e enviar mensagem. Para isso foi utilizado a classe *Linking* da própria biblioteca *react-native*;
 * Uso da biblioteca *react-navigation* para navegação em aplicações mobile;
 * Biblioteca Intl para padrões de internacionalização (Precisa instalação);
+  
+
+
+```Developed by: [André Arruda](http://github.com/andrelarruda)```
+![Image](https://avatars0.githubusercontent.com/u/21086939?v=4)
