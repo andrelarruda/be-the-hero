@@ -14,7 +14,7 @@ As *ONG*'s podem se cadastrar no site e à partir daí cadastrar *casos* de anim
 O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar em contato com a ONG** responsável por aquele caso via email ou whatsapp para doar a quantia pedida.
 
 # Como rodar o projeto
-1. No diretório em que deseja clonar a aplicação, execute o seguinte comando:\\
+1. No diretório em que deseja clonar a aplicação, execute o seguinte comando:    
   `git clone https://github.com/andrelarruda/be-the-hero.git`
 
 2. Entre no diretório criado:  
