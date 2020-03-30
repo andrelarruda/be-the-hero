@@ -23,11 +23,11 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
 3. Entre em uma das pastas (*backend*, *frontend* ou *mobile*);
   `cd pasta-desejada`
 
-4. Instale as dependências:
-  \\`npm install`
+4. Instale as dependências:\
+  `npm install`
 
-5. Rode o projeto;
-  \\`npm start`
+5. Rode o projeto;  
+  `npm start`
 
 > *Obs.: Para o projeto todo funcionar (web + mobile + backend) é necessário que os passos de 3 a 5 sejam executados para as três pastas: backend, frontend e mobile.*
 
