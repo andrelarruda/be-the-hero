@@ -7,15 +7,15 @@
 Esse projeto foi desenvolvido durante a **Semana Omnistack 11.0** da [Rocketseat](https://rocketseat.com.br/) (23/03/20 - 27/03/20). O objetivo é ensinar como desenvolver uma aplicação do back-end até o front-end (web + mobile), usando **NodeJS**, **ReactJS** e **React Native**.
 
 # O projeto:
-## Plataforma Web:
+  **Plataforma Web**
 As *ONG*'s podem se cadastrar no site e à partir daí cadastrar *casos* de animais abandonados, doentes e/ou que estejam precisando de ajuda. Em cada caso é informado título, descrição e valor de ajuda.
 
-## Aplicação mobile:
+  **Aplicação mobile**
 O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar em contato com a ONG** responsável por aquele caso via email ou whatsapp para doar a quantia pedida.
 
 # Como rodar o projeto
 1. No diretório em que deseja clonar a aplicação, execute o seguinte comando:
-  --- `git clone https://github.com/andrelarruda/be-the-hero.git`
+  `git clone https://github.com/andrelarruda/be-the-hero.git`
 
 2. Entre no diretório criado;
   `cd be-the-hero`
@@ -24,10 +24,10 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
   `cd pasta-desejada`
 
 4. Instale as dependências:
-  --- `npm install`
+  \`npm install`
 
 5. Rode o projeto;
-  --- `npm start`
+  \`npm start`
 
 > *Obs.: Para o projeto todo funcionar (web + mobile + backend) é necessário que os passos de 3 a 5 sejam executados para as três pastas: backend, frontend e mobile.*
 
