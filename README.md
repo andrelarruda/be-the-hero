@@ -2,7 +2,7 @@
 
 
 ## Objetivo do projeto:
-Esse projeto foi desenvolvido durante a **Semana Omnistack 11.0** da [Rocketseat](https://rocketseat.com.br/) (23/03/20 - 27/03/20). O objetivo é ensinar como desenvolver uma aplicação do back-end até o front-end (web + mobile), usando **[NodeJS](https://nodejs.org/en/)**, **[ReactJS](https://reactjs.org/)** e **[React Native](https://reactnative.dev/)**.
+Esse projeto foi desenvolvido durante a **Semana Omnistack 11.0** da [Rocketseat](https://rocketseat.com.br/) (23/03/20 - 27/03/20). O objetivo é ensinar como desenvolver uma aplicação do back-end até o front-end (web + mobile), usando as tecnologias **[NodeJS](https://nodejs.org/en/)**, **[ReactJS](https://reactjs.org/)** e **[React Native](https://reactnative.dev/)**.
 
 # O projeto:
   ### **Plataforma Web**
@@ -41,14 +41,14 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
 * Para execução em ambiente de desenvolvimento foi utilizada a ferramenta [nodemon](https://www.npmjs.com/package/nodemon) para reiniciar a aplicação automaticamente após alterações no código.
 
 ## Front-end
-### **1. Web**
+### 1. Web
 * Foram utilizados ícones da biblioteca [Feather icons](http://feathericons.com) (biblioteca *react-icons*);
 * Cliente HTTP [axios](https://github.com/axios/axios) para consumo da API construída;
 * Sistema de Rotas utlilizando elementos da *react-router-dom*;
 * Uso do método *useEffect* para manipulação de dados durante a renderização de componentes.
 * Biblioteca Intl para padrões de internacionalização (usada para padrão de moeda). Não precisa instalar nenhum pacote pois já é nativa do ReactJS. Basta usar a classe Intl;
 
-### **2. Mobile**
+### 2. Mobile
 * [expo](https://expo.io/) para rodar o app em dispositivos Android ou iOS;
 * Cliente HTTP [axios](https://github.com/axios/axios) para consumo da API construída;
 * Pacote *expo-constants* para utilizar constantes pré-definidas;
