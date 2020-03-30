@@ -17,13 +17,13 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
 1. No diretório em que deseja clonar a aplicação, execute o seguinte comando:\\
   `git clone https://github.com/andrelarruda/be-the-hero.git`
 
-2. Entre no diretório criado:\
+2. Entre no diretório criado:  
   `cd be-the-hero`
 
-3. Entre em uma das pastas (*backend*, *frontend* ou *mobile*):
+3. Entre em uma das pastas (*backend*, *frontend* ou *mobile*):  
   `cd pasta-desejada`
 
-4. Instale as dependências:\
+4. Instale as dependências:  
   `npm install`
 
 5. Rode o projeto;  
