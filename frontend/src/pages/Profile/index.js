@@ -9,8 +9,6 @@ import './styles.css';
 
 import logoImg from '../../assets/logo.svg';
 
-// PAREI EM 1:28:11
-
 export default function Profile() {
    const [incidents, setIncidents] = useState([]);
 

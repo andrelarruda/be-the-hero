@@ -3,7 +3,6 @@ import { Feather } from "@expo/vector-icons";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import {
    View,
-   FlatList,
    TouchableOpacity,
    Image,
    Text,
