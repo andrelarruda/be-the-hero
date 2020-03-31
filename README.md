@@ -39,6 +39,7 @@ O usuário da aplicação mobile pode **listar todos os casos** e pode **entrar 
 * Cliente HTTP [axios](https://github.com/axios/axios) para consumo de APIs;
 * Validação com [celebrate](https://github.com/arb/celebrate), que é um middleware da biblioteca de validações [Joi](https://github.com/hapijs/joi);
 * Para execução em ambiente de desenvolvimento foi utilizada a ferramenta [nodemon](https://www.npmjs.com/package/nodemon) para reiniciar a aplicação automaticamente após alterações no código.
+* Testes unitário e de integração com [jest](https://jestjs.io/).
 
 ## Front-end
 ### 1. Web
